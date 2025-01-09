@@ -1,5 +1,5 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
-content = """"
+content = ```
 <html>
     <body bgcolor="violet">
     <h1 align="center">LAPTOP PROPERTY(Trisha-24008628)</h1>
@@ -13,7 +13,7 @@ content = """"
 <li>Pen and touch No pen or touch input is available for this display</li>
 </body>
 </html>
-"""
+```
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("request received")
